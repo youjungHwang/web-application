@@ -17,6 +17,8 @@ dependencies {
     implementation("org.apache.tomcat.embed:tomcat-embed-core:8.5.42")
     implementation("org.apache.tomcat.embed:tomcat-embed-jasper:8.5.42")
 
+    implementation ("org.reflections:reflections:0.10.2")
+
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.10.2")
     testImplementation("org.assertj:assertj-core:3.26.3")
 }

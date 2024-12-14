@@ -16,3 +16,6 @@ calculator
 │   └── PositiveNumber.java            // 양수 입력 검증
 └── CalculatorServlet.java             // HTTP 요청 처리
 ```
+---
+### 의존성 주입(DI)을 구현하는 간단한 BeanFactory 예제
+Controller, Service, Inject와 같은 커스텀 애너테이션을 사용하여 객체 간의 의존성을 관리하고 주입하는 방식으로 동작합니다.
